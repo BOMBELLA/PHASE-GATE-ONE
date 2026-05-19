@@ -12,9 +12,11 @@ public class TaskTen{
 
        int sum = number + number + number;
 
-       int average = sum / 3;
+       int average  = sum / 3;
 
-       System.out.println(average);
+       
+
+     System.out.println(average);
 
        
 
