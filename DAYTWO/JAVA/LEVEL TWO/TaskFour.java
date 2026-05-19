@@ -8,63 +8,26 @@ public class TaskFour{
 
        System.out.println("Enter a number:   ");
 
-       int number = userInput.nextInt();
+       int firstNumber = userInput.nextInt();
 
        int largestNumber = number;
-
-       int secondNumber = largestNumber;
+       System.out.println("Enter a number:   ");
+       int secondNumber = userInput.nextInt();
 
        
-       if(number >  largestNumber){
+       if(secondNumber >  largestNumber){
+       largestNumber = secondNumber;
 
-       System.out.println("Higher");
+       System.out.println(largestNumber);
 
 
       }
       else {
 
-              
-        if(number < largestNumber){
+       System.out.println("larger number = " + largestNumber);
 
-       System.out.println("Lower");
+      }
 
-              }
-
-              } 
-
-       else {
-               
-
-       if(secondNumber > largestNumber){
-          System.out.println("The second number is the larger");    
-       
-              }     
-              }
-
-       else {
-              
-
-       if(secondNumber < largestNumber){
-          System.out.println("The second number is not the larger");
-
-              }
-              }
-
-
-       else {
-              
-
-        if(largestNumber > secondNumber){
-          System.out.println("The largest number is the larger one"); 
-
-              }
-              }
-
-         else {
-        
-          System.out.println("The largest number is the larger"); 
-
-              }
        
 
 }
